@@ -1,36 +1,34 @@
 # README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ### Title
-  README Generator
 
   ## Description
 
-  Generate a professional README file by simply answering a few questions about your application.
+  Generate a professional README file simply by answering a few questions about your application.
 
   ## Table of Contents
   
   * [Title](#title)
-  * [Description](#describe)
-  * [Installation](#install)
+  * [Description](#description)
+  * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
-  * [Contributing](#contrib)
+  * [Contributing](#contributing)
   * [Tests](#tests)
-  * [Questions](#email)
+  * [Questions](#questions)
 
   ## Installation
   Clone the repo, create new repo, and copy cloned repo into your new directory.
 
   ## Usage
-  Launch terminal, run command node index, answer the questions as prompted and your README file will generate.
+  Launnch terminal, run commande node index, answer the questions as prompted and your README file will generate.
 
   ## Credits
   No other collaborators at this time.
 
   ## License
-  https://opensource.org/licenses/MIT
+  License is covered under: https://opensource.org/licenses/MIT
 
   ## Contributing
   Not at this time.
@@ -39,4 +37,4 @@
   There are no tests at this time.
 
   ## Questions
-  If you have any questions, you can reach me by emailing [melissa.daska@gmail.com](mailto:melissa.daska@gmail.com) or follow the link to my gitHub profile [missadaska](https://github.com/missadaska).
+  If you have any questions, you can reach me by emailing [melissa.daska@gmail.com](mailto:melissa.daska@gmail.com) or follow the link to my gitHub profile [melissadaska](https://github.com/melissadaska).
