@@ -33,15 +33,15 @@ const questions = [
       message: 'Include the links of any collaborators.'
   },
   {
-      type: 'input',
+      type: 'list',
       name: 'license',
-      message: 'What is the license?'
-  },
-  {
-      type: 'checkbox',
-      name: 'badges',
-      message: 'Are there any badges?'
-      // if yes, include badges
+      message: 'Which license would you like to use?',
+      choices: [
+        'MIT',
+        'Apache',
+        'Mozilla',
+        'Unlicense'
+      ]
   },
   {
       type: 'input',
