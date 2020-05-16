@@ -36,6 +36,7 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Contributing](#contrib)
   * [Tests](#tests)
+  * [Questions](#email)
 
   ## Installation
   ${data.install}
@@ -54,6 +55,9 @@ function generateMarkdown(data) {
 
   ## Tests
   ${data.tests}
+
+  ## Questions
+  If you have any questions, you can reach me by emailing ${data.email}.
 `;
 }
 
