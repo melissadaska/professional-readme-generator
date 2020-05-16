@@ -19,6 +19,9 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${badges[data.license]}
 
+  ### Title
+  ${data.title}
+
   ## Description
 
   ${data.describe}
@@ -26,14 +29,31 @@ function generateMarkdown(data) {
   ## Table of Contents
   
   * [Title](#title)
-  * [Description](#description)
-  * [Installation](#installation)
+  * [Description](#describe)
+  * [Installation](#install)
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
-  * [Contributing](#contributing)
+  * [Contributing](#contrib)
   * [Tests](#tests)
 
+  ## Installation
+  ${data.install}
+
+  ## Usage
+  ${data.usage}
+
+  ## Credits
+  ${data.credits}
+
+  ## License
+  ${licenseLinks[data.license]}
+
+  ## Contributing
+  ${data.contrib}
+
+  ## Tests
+  ${data.tests}
 `;
 }
 
