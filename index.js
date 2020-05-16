@@ -55,26 +55,16 @@ const questions = [
   }
 ];
 
-questions()
-  .then(answers => {
-    // Use user feedback for... whatever!!
-  })
-
-  .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
-    }
-  });
-
 // function to write README file
-function writeToFile(fileName, data) {
+async function writeToFile(fileName, data) {
+  await fs.promises.writeFile(fileName, data, 'utf-8');
 }
 
 // function to initialize program
-function init() {
-
+async function init() {
+  const answers = await inquirer.prompt(questions);
+  const createMarkdown = generateMarkdown(answers);
+  await writeToFile('README.md', createMarkdown);
 }
 
 // function call to initialize program
