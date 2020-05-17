@@ -1,7 +1,7 @@
 # README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  Here is a link that demonstrates the functionality of the README generator![Link](https://drive.google.com/file/d/1Wv7QQhPC4lhZlN6igjsPYZWf-djowh52/view)
+ Follow this link that demonstrates the functionality of the README generator! [README Generator Walkthrough Video](https://drive.google.com/file/d/1Wv7QQhPC4lhZlN6igjsPYZWf-djowh52/view)
 
 
   ## Description
