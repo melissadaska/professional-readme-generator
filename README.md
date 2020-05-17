@@ -1,6 +1,8 @@
 # README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+  Here is a link that demonstrates the functionality of the README generator![Link](https://drive.google.com/file/d/1Wv7QQhPC4lhZlN6igjsPYZWf-djowh52/view)
+
 
   ## Description
 
@@ -8,7 +10,6 @@
 
   ## Table of Contents
   
-  * [Title](#title)
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
@@ -22,7 +23,7 @@
   Clone the repo, create new repo, and copy cloned repo into your new directory.
 
   ## Usage
-  Launnch terminal, run commande node index, answer the questions as prompted and your README file will generate.
+  Launch terminal, run command node index, answer the questions as prompted and your README file will generate.
 
   ## Credits
   No other collaborators at this time.
